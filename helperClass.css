@@ -1,0 +1,50 @@
+/* variables  */
+:root {
+    --primary-Light-red: hsl(0, 100%, 67%);
+    --primary-Orangey-yellow: hsl(39, 100%, 56%);
+    --primary-Green-teal: hsl(166, 100%, 37%);
+    --primary-Cobalt-blue: hsl(234, 85%, 45%);
+
+    --gradient-background-Light-slate-blue: hsl(252, 100%, 67%);
+    --gradient-background-Light-royal-blue: hsl(241, 81%, 54%);
+
+    --gradient-circle-Violet-blue: hsla(256, 72%, 46%, 1);
+    --gradient-circle-Persian-blue: hsla(241, 72%, 46%, 0);
+
+    --neutral-White: hsl(0, 0%, 100%);
+    --neutral-Pale-blue: hsl(221, 100%, 96%);
+    --neutral-Light-lavender: hsl(241, 100%, 89%);
+    --neutral-Dark-gray-blue: hsl(224, 30%, 27%);
+
+    /* font  */
+    --primary-font: 'Hanken Grotesk', sans-serif;
+}
+
+/* helper class  */
+.main-padding {
+    padding: 2rem 4rem;
+}
+
+.color-yellow {
+    color: var(--primary-Orangey-yellow);
+}
+
+.color-red {
+    color: var(--primary-Light-red);
+}
+
+.color-teel {
+    color: var(--primary-Green-teal);
+}
+
+.color-blue {
+    color: var(--primary-Cobalt-blue);
+}
+
+.color-para {
+    color: var(--neutral-Light-lavender);
+}
+
+.color-heading {
+    color: var(--neutral-White)
+}
